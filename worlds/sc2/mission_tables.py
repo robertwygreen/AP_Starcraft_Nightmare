@@ -94,6 +94,7 @@ class SC2Campaign(Enum):
     LOTV = 5, "Legacy of the Void", SC2CampaignGoalPriority.VERY_HARD, SC2Race.PROTOSS, "LotV"
     EPILOGUE = 6, "Into the Void (Legacy of the Void: Epilogue)", SC2CampaignGoalPriority.EPILOGUE, SC2Race.ANY, "LotV"
     NCO = 7, "Nova Covert Ops", SC2CampaignGoalPriority.HARD, SC2Race.TERRAN, "NCO"
+    WOLNIGHTMARE = 8 "Wings of Liberty Nightmare", SC2CampaignGoalPriority.VERY_HARD, SC2Race.TERRAN, "WoLNightmare"
 
 
 class SC2Mission(Enum):
