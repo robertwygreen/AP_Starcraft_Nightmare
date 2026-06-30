@@ -395,6 +395,8 @@ class EnabledCampaigns(OptionSet):
     - 'Legacy of the Void'
     - 'Into the Void (Legacy of the Void: Epilogue)'
     - 'Nova Covert Ops'
+    - 'Wings of Liberty: Nightmare Edition'
+    - 'Prophecy: Nightmare Edition'
     """
     display_name = "Enabled Campaigns"
     valid_keys = frozenset(campaign.campaign_name for campaign in SC2Campaign if campaign != SC2Campaign.GLOBAL)
